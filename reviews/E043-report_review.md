@@ -6,8 +6,8 @@ Em seguida apresentam-se os sensores utilizados assim como a sua identificação
 Finalmente ilustra-se o esquema geral de ensaio.
 
 <img class='img-00' src='./reviews/Table21_sensor_identification.png'></br>Listing of sensors used in the in-lab tests</img></br>
-<img class='img-00' src='./reviews/Fig213-InstrumentationPlan-rightface.png'></img></br>
-<img class='img-00' src='./reviews/Fig214-InstrumentationPlan-leftface.png'></img></br>
+<img class='img-00' src='./reviews/Fig213-InstrumentationPlan-leftface.png'></img></br>
+<img class='img-00' src='./reviews/Fig214-InstrumentationPlan-rightface.png'></img></br>
 <img class='img-00' src='./reviews/Fig215-InstrumentationPlan-bottomface.png'></img></br>
 <img class='img-00' src='./reviews/Fig216-GeneralArrangement.png'></img></br>
 
