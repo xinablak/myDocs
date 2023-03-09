@@ -1,6 +1,9 @@
 # SPECIFICATION FOR BIM PROJECT
 ## Parametric Overpass Model Previewer
 
+
+## BASIC DESCRIPTION
+
 ### PURPOSE
 
 The main objective is to assemble a tool, in a broad sense, that parametrically creates a BIM model with a representation of a highway profile and a small bridge structure passing over it. Given the number of overpasses, their individual widths and the width of the highway profile at each location, several models can be created. 
@@ -48,3 +51,22 @@ These parameters, by themselves, are not enough to completely define a BIM model
 * Beam height and midslabs/cantilever thicknesses;
 * Number of Beams (based on the overpass width);
 
+## ASSETS
+
+* The tool will be composed of three distinct areas:
+    * Input Area (Microsoft Excel Sheet)
+    * Processing Area (Grasshopper environment connected to a Tekla BIM Model through live-link)
+    * Output Area (Microsoft Excel output file [BOQ] and IFC BIM Model)
+
+* Notes:
+    * The Input Area will also pre-Process the input data and resolve the main aspects that define the Processing Solution. 
+    * The Processing Area will just take this pre-analysed data and use it to produce the main parameters that are going to govern the geometry of the BIM Model.
+    * The Input Area will also directly post-process the derived data and generate the main BOQ-related results.
+
+
+## LOGIC
+
+* The logic for determining the main model-derived data will be based on the analysis of past solutions adopted for overpass bridges designed by the company, and the required relations to the input parameters will be established.
+* For that, several projects will be studied, in order to setup an algorithm that adjusts the geometry to the input data. Once the basic model-defining variables are determined, these will be used to also adjust the parameters that govern the output related quantities.
+* The basic parameter is the width of the main highway profile. Based on these values, the main span of the overpass shall be defined and then a total length for the bridge will be determined based on span relations. This will have an impact on the height of the overpass beams and to some extent the thickness of the slabs.
+* The second most important parameter is the total width of the overpass. Based on this, a metric to determine the number of beams must be derived and then, depending on the main span length, and the total width of the overpass, widths and thicknesses for the slabs and cantilevers must be obtained.
