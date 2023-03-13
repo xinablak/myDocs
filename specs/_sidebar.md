@@ -6,4 +6,4 @@
        
     * [Specifications](/specs/)
 
-        * [Specification for Parametric BIM project](/specs/E043-Parametric_BIM_project.md "Parametric BIM overpass spec")
+        * [Parametric Overpass BIM project](/specs/E043-Parametric_BIM_project.md "Parametric BIM overpass spec")
