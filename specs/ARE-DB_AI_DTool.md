@@ -15,6 +15,5 @@ For the implementation of the database and its AI components, several sub-implem
 
 NOTES:
 
-    * The available data may not be sufficient for proper training the model, being that we need to allow for test data and cross-checking data.
-    * In case it reveals to be insufficient, will have to revert to manual input, which was our initial procedure. To be evaluated.
-
+* The available data may not be sufficient for proper training the model, being that we need to allow for test data and cross-checking data.
+* In case it reveals to be insufficient, will have to revert to manual input, which was our initial procedure. To be evaluated.
