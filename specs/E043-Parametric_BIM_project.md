@@ -26,7 +26,7 @@ These parameters, by themselves, are not enough to completely define a BIM model
 ### MAIN OUTPUT
 
 * 2D Representation media of the BIM models with structural solutions adapted to the provided input.
-* Cost-estimate for all the generated models.
+* Cost-estimate/Quantity-estimate for all the generated models.
 * BIM model in IFC format for all the generated overpasses.
 
 
@@ -50,6 +50,14 @@ These parameters, by themselves, are not enough to completely define a BIM model
 * Beam width and midslabs/cantilever widths (based on total width of the overpass);
 * Beam height and midslabs/cantilever thicknesses;
 * Number of Beams (based on the overpass width);
+
+
+### ASSUMPTIONS
+
+* The piers will be those adopted from the actual PS35 project, with a fixed, average height. They will have simple footings as foundations.
+* The abutments will also be assumed to have a fixed geometry, with a certain amount of reinforcement, having a fixed contribution to the final prices / quantities.
+* The will be a minimum and maximum widths both for the Highway as well as for the Overpass. These will also affect some of the other parameters.
+
 
 ## LOGIC
 
